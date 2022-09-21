@@ -22,14 +22,16 @@
         <!--About Section-->
         <div class="about">
             <div class="introduction">
-                <p>Hi, my name is <hr class="subHr">  <h1>Gabriel Machado</h1></p>
+                <p>Hi, my name is </p>
+                <hr class="subHr">
+                <h1>Gabriel Machado</h1>
                 <p>
                     I've been working with IT since 2012 and did multiple roles troughout my career, now I'm a Solutions Engineer at
                     Metamap but I'm searching of a full web-development job.
                 </p>
                 
-                <button class="btnGetInTouch">Get in touch</button>
-                <button>Resume</button>
+                <button  class="btnGetInTouch">Get in touch</button>
+                <button onclick="window.open('/gabrieldmac.github.io/assets/ResumeGabrielMachado.pdf');" >Resume</button>
             </div>
             <div class="technologies">
                 <table class="technolgiesTable">
@@ -39,7 +41,7 @@
                             <span>HTML</span>
                        </td> 
                         <td>
-                            <img src="/gabrieldmac.github.io/assets/css.png" class="techlogo"></img>
+                            <img src="https://github.com/gabrieldmac/gabrieldmac.github.io/blob/main/assets/css.png" class="techlogo"></img>
                             <span>CSS</span>
                         </td>
                         <td>
@@ -67,35 +69,66 @@
         </div>
        
         <!-- Projects -->
-        <div class="projects" >
+        <!--TODO: Trocar table por grid-->
+        <div  class="projects" >
             <h2>PROJECTS</h2>
             <hr class="subHr">
+           
             <div>
-                <h3>From courses</h3>    
-                <p>Travel Advise</p>
-                <p>Restaurant Search</p>
-            </div>
-            <div>
-                <h3>Personal</h3>
-                <p>Contract Due Date Handling</p>
-                <p>Things I hate</p>
+                <div class="projectGrid" >
+                    <div class="projectDiv">
+                        <p>Contract Due Date Handling</p>
+                        <img src="/gabrieldmac.github.io/assets/screenshotduedate.png" alt="contractduedate" class="projectThumb">
+                        <br>
+                        <span class="githubProjectLink">GitHub Link: <a href="https://github.com/gabrieldmac/harbour-contract-dates">Contract Due Date Handling</a></span>
+                    </div>
+                    <div class="projectDivWIP">
+                        <p>Automotive Aesthetics System(WIP)</p>
+                        <div class="projectThumbDivWIP">
+                        <br>
+                        <span class="githubProjectLink">GitHub Link: <a href="">Contract Due Date Handling</a></span>
+                    </div>
+                </div>
             </div>
             
-            <p></p>
         </div>
-
+        <br>
         <!-- Contacts -->
         <div class="contacts">
             <h2>GET IN TOUCH</h2>
             <hr class="subHr">
-            <p>gabriel.d.machado92@gmail.com</p>
-            <p>+55 41 99610-7644</p>
+            <div>
+                <table>
+                    <tr>
+                        <tr>
+                            <td>
+                                <a href="mailto:gabriel.d.machado92@gmail.com" ><img src="/gabrieldmac.github.io/assets/email.png" alt="email" /></a>
+                            </td>
+                            <td>
+                                <a href="https://www.linkedin.com/in/gabrieldmachado/"><img src="/gabrieldmac.github.io/assets/linkedin.png" alt="linkedin" /></a>
+                            </td>
+                            <td>
+                                <a href="https://github.com/gabrieldmac/"><img src="/gabrieldmac.github.io/assets/github.png" alt="github" /></a>
+                            </td>
+                        </tr>
+                    </tr>
+                </table>
+                
+                
+                
+                
+
+                
+                
+            </div>
 
         </div>
 
+        
+
     </div>
 
-
+    
 
 </body>
 </html>

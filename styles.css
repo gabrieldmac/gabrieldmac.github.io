@@ -41,7 +41,7 @@ body {
 }
 
 .content {
-    width: 70%;
+    width: 50%;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -107,7 +107,7 @@ button:hover {
 }
 
 .subHr {
-    border: 1px;
+    border: 2px;
     border-color: lightcoral;
     border-style: solid;
     width: 10%;
@@ -115,3 +115,70 @@ button:hover {
     margin-left: 0;
     margin-top: -15px;
 }
+
+.projectThumb {
+    height:200px; 
+    width: 200px;
+
+}
+
+.projectDivWIP {
+    box-shadow: 0px 0px 0px 0px lightcoral;
+}
+
+.projectTable {
+    margin: 10px;
+    border-spacing: 80px 30px;
+    font-size: large;
+    align-content: center;
+
+}
+
+.projectTable span {
+    font-size: medium;
+}
+
+.projectDiv img {
+    border-radius: 8px;
+    box-shadow: 2px 2px 0px 2px lightcoral;
+}
+
+.projectGrid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto auto;
+    padding: 5px;
+
+}
+
+.githubProjectLink {
+    font-size: 13px;
+}
+
+.contacts img {
+    width:25pxx;
+    height:25px;
+}
+
+.contacts {
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+.contacts span {
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 13px;
+
+}
+
+.contacts th, td{
+    padding: 10px;
+    
+
+}
+
